@@ -1,0 +1,120 @@
+/* 
+White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+*/
+
+@import "./css/variable.css";
+@import "./css/reset.css";
+@import "./css/fonts.css";
+/* html {
+  padding-bottom: 101rem;
+  padding-bottom: 10000rem;🤔
+} */
+body {
+  max-width: 375px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+.flex-colum-gap {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-direction: column;
+}
+.text-wrapper {
+  margin: 2rem;
+}
+h2 {
+  margin-bottom: 1rem;
+}
+.Preparation-container {
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  background-color: var(--color-bg-50);
+  border-radius: 0.75rem;
+}
+.Preparation-container h3 {
+  color: var(--color-h3);
+  margin-bottom: 0.5rem;
+}
+hr {
+  border-bottom: 1.5px solid var(--color-hr-100);
+}
+ul,
+ol {
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  position: relative;
+  padding-block: 0.5rem;
+  padding-left: 2em;
+}
+ul li::before {
+  content: "•";
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.Preparation-container ul li::before {
+  color: var(--color-h3);
+}
+.Ingredients-container ul li::before {
+  color: var(--color-h2);
+}
+
+ol {
+  list-style-type: none;
+  position: relative;
+}
+
+ol li {
+  counter-increment: list;
+  margin-left: 2rem;
+}
+
+ol li::before {
+  content: counter(list) ". ";
+  position: absolute;
+  left: 0.5rem;
+  font-family: "outfit-regular";
+  font-size: 1rem;
+  color: var(--color-h2);
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  padding-block: 1rem;
+  border-bottom: 1.5px solid var(--color-hr-100);
+}
+tr:last-child td {
+  border-bottom: 0;
+}
+tr b {
+  color: var(--color-h2);
+}
+.first-td {
+  position: relative;
+  left: 2rem;
+}

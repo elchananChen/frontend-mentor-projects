@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "young-sarif";
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@font-face {
+  font-family: "outfit-regular";
+  src: url("../assets/fonts/outfit/static/Outfit-Regular.ttf");
+}
+html {
+  font-family: "outfit-regular";
+  color: var(--color-font-600);
+}
+h1 {
+  font-size: 2rem;
+  font-family: "young-sarif";
+  color: var(--color-font-900);
+}
+h2 {
+  font-size: 1.75rem;
+  font-family: "young-sarif";
+  color: var(--color-h2);
+}
+h3 {
+  font-size: 1.25rem;
+}
