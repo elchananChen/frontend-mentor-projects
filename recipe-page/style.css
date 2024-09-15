@@ -1,28 +1,11 @@
-/* 
-White: hsl(0, 0%, 100%)
-
-- Stone 100: hsl(30, 54%, 90%)
-- Stone 150: hsl(30, 18%, 87%)
-- Stone 600: hsl(30, 10%, 34%)
-- Stone 900: hsl(24, 5%, 18%)
-
-- Brown 800: hsl(14, 45%, 36%)
-
-- Rose 800: hsl(332, 51%, 32%)
-- Rose 50: hsl(330, 100%, 98%)
-*/
-
 @import "./css/variable.css";
 @import "./css/reset.css";
 @import "./css/fonts.css";
-/* html {
-  padding-bottom: 101rem;
-  padding-bottom: 10000rem;🤔
-} */
-body {
-  max-width: 375px;
-}
 
+article {
+  padding-bottom: 0.5rem;
+  max-width: 700px;
+}
 .img-container img {
   width: 100%;
   height: 100%;
@@ -117,4 +100,26 @@ tr b {
 .first-td {
   position: relative;
   left: 2rem;
+}
+@media (min-width: 700px) {
+  .article-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-font-100);
+    padding-block: 5rem;
+  }
+  article {
+    width: 700px;
+    background-color: var(--color-bg-0);
+    border-radius: 0.75rem;
+    filter: blur();
+  }
+  .img-container {
+    margin-inline: 2rem;
+    margin-top: 2rem;
+    overflow: hidden;
+    border-radius: 0.75rem;
+  }
 }
