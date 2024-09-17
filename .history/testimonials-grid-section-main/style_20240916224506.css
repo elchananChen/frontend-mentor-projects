@@ -1,0 +1,66 @@
+@import url("./css/varieble.css");
+@import url("./css/reset.css");
+@import url("./css/fonts.css");
+@import url("./css/lyout.css");
+html {
+  font-family: "barlow-500";
+}
+
+/* .big-img {
+  padding: 2rem;
+  background-image: url("./images/bg-pattern-quotation.svg");
+} */
+article {
+  padding-inline: 2rem;
+  padding-top: 5rem;
+}
+.Graduate-card {
+  position: relative;
+  padding-inline: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  border-radius: 0.5rem;
+}
+.Graduate-card .img-bg {
+  position: absolute;
+  z-index: -1;
+}
+.card1 {
+  z-index: 3;
+  /* background-image: url("./images/bg-pattern-quotation.svg"); */
+  background-color: var(--color-praimery-400);
+}
+figure {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding-block: 1rem;
+}
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 2.5px solid var(--color-praimery-300);
+}
+.name {
+  color: var(--color-praimery-0);
+  margin-bottom: 3px;
+}
+.status {
+  color: var(--color-praimery-50);
+  font-size: 0.87rem;
+}
+
+h4 {
+  color: var(--color-praimery-0);
+  font-size: 1.53rem;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.Graduate-card p {
+  padding-inline-end: 1rem;
+  padding-top: 1rem;
+}

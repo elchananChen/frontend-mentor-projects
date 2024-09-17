@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "barlow-500";
+  src: url(../fonts/barlow/BarlowSemiCondensed-Medium.ttf);
+}
+@font-face {
+  font-family: "barlow-600";
+  src: url("../fonts/barlow/BarlowSemiCondensed-SemiBold.ttf");
+}
+.name {
+  font-family: "barlow-600";
+}
+.status {
+  font-family: var(--color-praimery-50);
+}
+h4 {
+  font-family: "barlow-600";
+}

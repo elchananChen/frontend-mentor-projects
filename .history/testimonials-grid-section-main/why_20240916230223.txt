@@ -1,0 +1,2 @@
+why the background picture is over the background color if i 
+uze z-index in both no metter if the graguete-card higer or lower?

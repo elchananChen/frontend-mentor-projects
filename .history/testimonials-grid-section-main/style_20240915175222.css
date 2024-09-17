@@ -1,0 +1,6 @@
+@import url("./css/varieble.css");
+@import url("./css/reset.css");
+@import url("./css/fonts.css");
+html {
+  font-family: "barlow-500";
+}

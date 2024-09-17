@@ -1,0 +1,15 @@
+@import url("./css/varieble.css");
+@import url("./css/reset.css");
+@import url("./css/fonts.css");
+@import url("./css/lyout.css");
+html {
+  font-family: "barlow-500";
+}
+
+/* .big-img {
+  padding: 2rem;
+  background-image: url("./images/bg-pattern-quotation.svg");
+} */
+.avatar {
+  border-radius: 50%;
+}

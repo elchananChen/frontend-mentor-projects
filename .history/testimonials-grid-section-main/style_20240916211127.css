@@ -1,0 +1,53 @@
+@import url("./css/varieble.css");
+@import url("./css/reset.css");
+@import url("./css/fonts.css");
+@import url("./css/lyout.css");
+html {
+  font-family: "barlow-500";
+}
+
+/* .big-img {
+  padding: 2rem;
+  background-image: url("./images/bg-pattern-quotation.svg");
+} */
+article {
+  padding-inline: 1.5rem;
+  padding-top: 5rem;
+}
+.Graduate-card {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.daniel {
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-color: var(--color-praimery-400);
+}
+figure {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding-block: 1rem;
+}
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+  border: 2.5px solid var(--color-praimery-300);
+}
+.name {
+  color: var(--color-praimery-0);
+  margin-bottom: 3px;
+}
+.status {
+  color: var(--color-praimery-50);
+}
+
+h4 {
+  color: var(--color-praimery-0);
+  font-size: larger;
+}
+img {
+  width: 100%;
+  height: 100%;
+}

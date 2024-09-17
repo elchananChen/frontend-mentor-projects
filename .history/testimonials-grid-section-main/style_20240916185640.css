@@ -1,0 +1,11 @@
+@import url("./css/varieble.css");
+@import url("./css/reset.css");
+@import url("./css/fonts.css");
+html {
+  font-family: "barlow-500";
+}
+
+.big-img {
+  padding: 2rem;
+  background-image: url("./images/bg-pattern-quotation.svg");
+}

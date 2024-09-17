@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 0px;
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  font-size: 15px;
+}
+a,
+button,
+input,
+textarea {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  padding-block-start: 24px;
+}
+.big-div {
+  margin-inline: 23px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.img {
+  position: relative;
+}
+.mobile-img {
+  display: none;
+}
+.background-color-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(277, 64%, 61%, 0.563);
+  z-index: 999933;
+}
+p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.big-font {
+  font-size: 25px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+.big-font::first-letter {
+  text-transform: uppercase;
+}
+.medium-font {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+.main-footer {
+  background-color: hsl(244, 38%, 16%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+main p {
+  color: hsl(0, 0%, 100%, 0.75);
+  line-height: 1.7rem;
+  letter-spacing: 1.5px;
+}
+main h1 {
+  margin-bottom: 15px;
+}
+footer p {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+.uppercase > div:first-child > p:first-child {
+  text-transform: lowercase;
+}
+@media (min-width: 700px) {
+  /**/
+  /* .main-footer {
+     position: sticky; 
+  } */
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-block: 200px; */
+  }
+  .big-div {
+    display: flex;
+    flex-direction: row-reverse;
+
+    /* min-height: 100px;
+    max-height: 400px; */
+  }
+  /* .img {
+    width: 700px;
+  } */
+  .desktop-img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .mobile-img {
+    display: none;
+  }
+  footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .big-div > * {
+    flex: 1;
+  }
+}
