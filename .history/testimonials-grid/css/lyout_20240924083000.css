@@ -1,0 +1,20 @@
+article {
+}
+.cards-wrapper {
+  display: grid;
+
+  gap: 3rem;
+}
+aside > div {
+}
+main {
+  display: grid;
+
+  gap: 3rem;
+}
+.big-card {
+}
+aside {
+}
+.small-card {
+}

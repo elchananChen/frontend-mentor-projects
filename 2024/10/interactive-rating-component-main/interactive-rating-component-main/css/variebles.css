@@ -1,0 +1,12 @@
+:root {
+  --color-orenge-400: hsl(25, 97%, 53%);
+
+  --color-White-0: hsl(0, 0%, 100%);
+
+  --color-Light-Grey-100: hsl(217, 12%, 63%);
+
+  --color-bg-Dark-Blue-300: hsl(215, 18%, 21%);
+  --color-bg-Dark-Blue-350: hsl(216, 12%, 8%, 15%);
+  --color-bg-Dark-Blue-400: hsl(213, 19%, 18%);
+  --color-bg-Dark-Blue-600: hsl(216, 12%, 8%);
+}

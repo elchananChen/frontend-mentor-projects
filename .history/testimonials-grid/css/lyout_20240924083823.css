@@ -1,0 +1,16 @@
+article {
+}
+.cards-wrapper {
+  display: grid;
+  gap: 3rem;
+}
+main {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 1040px) {
+  main {
+    grid-template-columns: repeat(4, 20%);
+  }
+}

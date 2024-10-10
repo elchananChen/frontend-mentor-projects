@@ -3,7 +3,7 @@
   --color-praimery-50: hsla(0, 0%, 100%, 0.5);
   --color-praimery-70: hsla(0, 0%, 100%, 0.7);
 
-  --color-praimery-200: hsl(217, 19%, 35%);
+  --color-praimery-200: hsla(217, 19%, 35%, 0.468);
   --color-praimery-300: hsl(263, 55%, 70%);
   --color-praimery-400: hsl(263, 55%, 52%);
   --color-praimery-600: hsl(219, 29%, 14%);

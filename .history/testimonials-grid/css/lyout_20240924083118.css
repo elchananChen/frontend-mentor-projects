@@ -1,0 +1,24 @@
+article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cards-wrapper {
+  display: grid;
+
+  gap: 3rem;
+}
+aside > div {
+}
+main {
+  display: grid;
+
+  gap: 2rem;
+}
+.big-card {
+}
+aside {
+}
+.small-card {
+}

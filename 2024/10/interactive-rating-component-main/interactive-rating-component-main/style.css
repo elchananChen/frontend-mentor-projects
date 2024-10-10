@@ -1,0 +1,100 @@
+@import url("./css/variebles.css");
+@import url("./css/reset.css");
+@import url("./css/fonts.css");
+
+article {
+  min-height: 100vh;
+  background-color: var(--color-bg-Dark-Blue-600);
+  color: var(--color-Light-Grey-100);
+  padding-inline: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-conteiner {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: var(--color-bg-Dark-Blue-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-wrraper {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+.card {
+  flex-basis: 356.56px;
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+  border-radius: 1rem;
+  background-color: var(--color-bg-Dark-Blue-400);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+h1 {
+  color: var(--color-White-0);
+  font-family: "overpass-bold";
+  font-size: x-large;
+}
+
+.num-buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.num-buttons {
+  cursor: pointer;
+  background-color: var(--color-bg-Dark-Blue-300);
+  color: var(--color-Light-Grey-100);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-family: "overpass-bold";
+}
+.num-buttons:hover {
+  background: var(--color-orenge-400);
+  color: var(--color-bg-Dark-Blue-600);
+}
+
+.submit-btn {
+  border-radius: 50rem;
+  padding-block: 0.9rem;
+  font-family: "overpass-bold";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: var(--color-orenge-400);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-bg-Dark-Blue-600);
+}
+
+.active {
+  background-color: var(--color-White-0);
+  color: var(--color-bg-Dark-Blue-600);
+}
+
+a:hover {
+  background-color: var(--color-White-0);
+}
+
+/* thenks Adjustments */
+.center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+h6 {
+  margin-block: 0;
+  background-color: var(--color-bg-Dark-Blue-300);
+  color: var(--color-orenge-400);
+  padding: 0.7rem;
+  /* padding: 0.2rem; */
+  padding-inline: 1rem;
+  border-radius: 200rem;
+}
