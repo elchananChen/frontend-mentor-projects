@@ -46,6 +46,10 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+.num-buttons:focus {
+  background-color: var(--color-White-0);
+  color: var(--color-bg-Dark-Blue-600);
+}
 .num-buttons {
   cursor: pointer;
   background-color: var(--color-bg-Dark-Blue-300);

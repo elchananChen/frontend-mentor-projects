@@ -23,4 +23,3 @@ submitBtn.addEventListener("click", (ev) => {
     alert("choose first");
   }
 });
-console.log([1, 2] + [1, 2]);

@@ -1,0 +1,26 @@
+@import url("./css/reset.css");
+@import url("./css/varieble.css");
+@import url("./css/fonts.css");
+@import url("./css/utilities.css");
+
+article {
+  min-height: 100vh;
+  width: 100%;
+}
+.card {
+  min-height: 100vh;
+  /* width: 100%;
+  height: 200px; */
+  /* background: -moz-linear-gradient(left, blue 75%, white 25%); */
+  /* background: linear-gradient(180deg, red 20%, orange 20% 100%); */
+  /* background: linear-gradient(to top, blue 25%, white 25%, red 50%); */
+
+  background: linear-gradient(180deg, transparent 25%, blue 25%),
+    url("./assets/images/background-pattern-mobile.svg");
+  background-size: cover; /* מכסה את האלמנט */
+  background-position: center; /* מרכז את התמונה */
+  /* background-size: cover; מכסה את האלמנט */
+  /* background-position: center; */
+}
+header {
+}

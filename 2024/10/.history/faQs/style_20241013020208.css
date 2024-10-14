@@ -1,0 +1,15 @@
+@import url("./css/reset.css");
+@import url("./css/varieble.css");
+@import url("./css/fonts.css");
+@import url("./css/utilities.css");
+
+article {
+  min-height: 100vh;
+  width: 100%;
+}
+.card {
+  min-height: 100vh;
+  background-color: var(--color-Light-pink);
+}
+header {
+}

@@ -1,0 +1,63 @@
+@import url("./css/reset.css");
+@import url("./css/varieble.css");
+@import url("./css/fonts.css");
+@import url("./css/utilities.css");
+
+p {
+  font-family: "work-sans";
+  font-weight: 900;
+}
+
+article {
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  padding-block: 5rem;
+  background: linear-gradient(180deg, transparent 25%, hsl(275, 100%, 97%) 25%),
+    url("./assets/images/background-pattern-mobile.svg");
+}
+.card {
+  background-color: var(--color-White);
+  padding: 1rem;
+}
+header {
+  font-family: "";
+  font-weight: bolder;
+}
+h1 {
+  font-size: 2rem;
+  color: var(--color-Dark-purple);
+}
+h3 {
+  font-size: 1.1rem;
+  color: var(--color-Dark-purple);
+}
+.q-wrapper {
+  gap: 2rem;
+  padding-block: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  align-items: center;
+  gap: 1rem;
+}
+.star-wrapper {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.plus-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 3rem;
+  height: 3rem;
+  flex-basis: 2rem;
+  flex-shrink: 0;
+}
+.plus-img {
+  flex-basis: 2rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}

@@ -1,0 +1,21 @@
+@import url("./css/reset.css");
+@import url("./css/varieble.css");
+@import url("./css/fonts.css");
+@import url("./css/utilities.css");
+
+article {
+  min-height: 100vh;
+  width: 100%;
+}
+.card {
+  /* min-height: 100vh; */
+  width: 100%;
+  height: 200px;
+  /* background: -moz-linear-gradient(left, blue 75%, white 25%); */
+  background: -webkit-linear-gradient(
+    left,
+    blue 75%
+  ); /* background: linear-gradient(to top, blue 25%, white 25%, red 50%); */
+}
+header {
+}

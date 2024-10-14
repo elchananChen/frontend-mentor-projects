@@ -1,0 +1,7 @@
+@import url("./css/reset.css");
+@import url("./css/varieble.css");
+@import url("./css/fonts.css");
+
+.flex {
+  display: flex;
+}
