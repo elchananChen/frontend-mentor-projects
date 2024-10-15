@@ -11,11 +11,6 @@ h1 {
 h3 {
   font-family: "work-sans";
   font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--color-Dark-purple);
-}
-.q-head:hover h3 {
-  color: #9400d3;
 }
 p {
   padding-block: 1rem;
@@ -29,7 +24,7 @@ article {
   min-height: 100vh;
   width: 100%;
   padding: 1rem;
-  padding-block: 10rem;
+  padding-block: 12rem;
   background: linear-gradient(180deg, transparent 25%, hsl(275, 100%, 97%) 25%),
     url("./assets/images/background-pattern-mobile.svg");
 }
@@ -44,6 +39,10 @@ header {
   font-weight: bolder;
 }
 h1 {
+  color: var(--color-Dark-purple);
+}
+h3 {
+  font-size: 1.1rem;
   color: var(--color-Dark-purple);
 }
 .header {
@@ -61,9 +60,6 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
-.q-head:hover {
-  cursor: pointer;
-}
 .sign-wrapper {
   display: flex;
   align-items: center;
@@ -72,6 +68,9 @@ h1 {
   height: 3rem;
   flex-basis: 2rem;
   flex-shrink: 0;
+}
+.sign-wrapper:hover {
+  cursor: pointer;
 }
 .sign-img {
   flex-basis: 2rem;

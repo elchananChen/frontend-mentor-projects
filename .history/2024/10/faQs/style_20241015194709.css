@@ -6,63 +6,57 @@
 h1 {
   font-family: "work-sans";
   font-weight: 700;
-  font-size: 2rem;
 }
 h3 {
   font-family: "work-sans";
   font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--color-Dark-purple);
-}
-.q-head:hover h3 {
-  color: #9400d3;
 }
 p {
   padding-block: 1rem;
   font-family: "work-sans";
   color: var(--color-Grayish-purple);
-  line-height: 1.6;
 }
 article {
   display: flex;
-  justify-content: center;
   min-height: 100vh;
   width: 100%;
-  padding: 1rem;
-  padding-block: 10rem;
+  padding: 1.5rem;
+  padding-block: 5rem;
   background: linear-gradient(180deg, transparent 25%, hsl(275, 100%, 97%) 25%),
     url("./assets/images/background-pattern-mobile.svg");
+  align-items: center;
 }
+
 .card {
-  flex-basis: 35rem;
   background-color: var(--color-White);
-  padding: 1.1rem;
-  border-radius: 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 header {
   font-family: "";
   font-weight: bolder;
 }
 h1 {
+  font-size: 2rem;
   color: var(--color-Dark-purple);
 }
-.header {
-  align-items: center;
-  gap: 1.5rem;
-  margin-block: 0.5rem;
-}
-.star-wrapper {
-  width: 1.5rem;
-  height: 1.5rem;
+h3 {
+  font-size: 1.1rem;
+  color: var(--color-Dark-purple);
 }
 .q-head {
-  gap: 1.5rem;
+  gap: 2rem;
   padding-block: 0.5rem;
   align-items: center;
   justify-content: space-between;
 }
-.q-head:hover {
-  cursor: pointer;
+.header {
+  align-items: center;
+  gap: 1rem;
+}
+.star-wrapper {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .sign-wrapper {
   display: flex;
@@ -73,13 +67,12 @@ h1 {
   flex-basis: 2rem;
   flex-shrink: 0;
 }
+.sign-wrapper:hover {
+  cursor: pointer;
+}
 .sign-img {
   flex-basis: 2rem;
   width: 2rem;
   height: 2rem;
   object-fit: cover;
-}
-hr {
-  border-color: rgba(0, 0, 0, 0.023);
-  margin-block: 0.5rem;
 }

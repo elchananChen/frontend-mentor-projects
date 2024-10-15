@@ -11,11 +11,6 @@ h1 {
 h3 {
   font-family: "work-sans";
   font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--color-Dark-purple);
-}
-.q-head:hover h3 {
-  color: #9400d3;
 }
 p {
   padding-block: 1rem;
@@ -46,6 +41,10 @@ header {
 h1 {
   color: var(--color-Dark-purple);
 }
+h3 {
+  font-size: 1.1rem;
+  color: var(--color-Dark-purple);
+}
 .header {
   align-items: center;
   gap: 1.5rem;
@@ -61,8 +60,8 @@ h1 {
   align-items: center;
   justify-content: space-between;
 }
-.q-head:hover {
-  cursor: pointer;
+q:hover {
+  color: var(--color-Grayish-purple);
 }
 .sign-wrapper {
   display: flex;
@@ -72,6 +71,9 @@ h1 {
   height: 3rem;
   flex-basis: 2rem;
   flex-shrink: 0;
+}
+.sign-wrapper:hover {
+  cursor: pointer;
 }
 .sign-img {
   flex-basis: 2rem;

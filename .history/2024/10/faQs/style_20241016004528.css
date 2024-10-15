@@ -14,7 +14,7 @@ h3 {
   font-size: 1.1rem;
   color: var(--color-Dark-purple);
 }
-.q-head:hover h3 {
+.q-head:hover {
   color: #9400d3;
 }
 p {

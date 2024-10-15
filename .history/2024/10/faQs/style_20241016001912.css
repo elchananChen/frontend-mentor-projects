@@ -14,8 +14,8 @@ h3 {
   font-size: 1.1rem;
   color: var(--color-Dark-purple);
 }
-.q-head:hover h3 {
-  color: #9400d3;
+h3:hover {
+  color: var(--color-Grayish-purple);
 }
 p {
   padding-block: 1rem;

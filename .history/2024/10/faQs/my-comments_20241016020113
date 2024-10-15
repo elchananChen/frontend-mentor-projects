@@ -1,0 +1,27 @@
+
+1. להסתכל על כל תמונות המשימה לפני שנגשים - שעות התעסקתי בלגרום לסימן להשתנות כשלוחצים עליו 
+ובסוף צריך שהוא ישתנה כשלוחצים על כל הכותרת מה שגרם לי לכתוב את הסקריפט פעמיים 
+2. הקוד המיותר -
+// const signBtnsEl = document.querySelectorAll(".sign-big-wrapper");
+// signBtnsEl.forEach((sign) => {
+//   sign.addEventListener("click", (ev) => {
+//     let current = "";
+//     const alt = ev.target.alt;
+//     const wrapperEL = ev.target.closest(".q-wrapper");
+//     const pEL = wrapperEL.querySelector("p");
+//     if (alt === "plus-sign") {
+//       current = "minus";
+//       ev.target.alt = "minus-sign";
+//       pEL.classList.removes("hidden");
+//     } else if (alt === "minus-sign") {
+//       current = "plus";
+//       ev.target.alt = "plus-sign";
+//       pEL.classList.add("hidden");
+//     } else console.error("Error: sign path missing");
+//     ev.target.src = `./assets/images/icon-${current}.svg`;
+//   });
+// });
+
+3.כדי לגשת לאחים שאינם צמודים - צריך לגשת לאב וממנו לגשת לבנים ע׳׳י שאילתה שמבצעים עליו - ולא על כל הדוקיומנט 
+4.closest 
+מקבל את האב הקרוב שמתאים 
